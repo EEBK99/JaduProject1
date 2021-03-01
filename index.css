@@ -1,0 +1,78 @@
+html, body{
+    font-family: 'Akaya Kanadaka', cursive;
+    margin:0;
+    padding:0;
+}
+
+/* using flexbox */
+nav {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    background-color:indigo;
+}
+
+.nav-heading{
+    margin: 30px;
+    font-weight: bold;
+    font-size: 30px;
+    color: azure;
+}
+
+.nav-links{
+    display: flex;
+    list-style-type: none;
+    align-items:center;
+}
+
+.nav-list-link{
+    margin-right: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: azure;
+}
+
+.div1-body{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+
+.mainimage{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.div2-body{
+    display: flex;
+    flex-flow: wrap;
+    padding: 45px;
+    align-items: center;
+    justify-content:center;
+}
+
+.div2-para{
+    margin-right: 30px;
+    font-size: 20px;
+    color: dimgrey;
+}
+
+.div2-links{
+    margin-right: 15px;
+}
+
+.div-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: indigo;
+    color: azure;
+}
+
+.p-footer{
+    display: flex;
+    align-items: center;
+}
